@@ -1,0 +1,26 @@
+h1{
+    color:red;
+    /* text-decoration:dashed red; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+h1::after{
+    content: '';
+    display:block;
+    border-bottom: 3px dashed red;
+    width: 7%;
+    margin:0 auto;
+    margin-top: 2px;
+}
+
+.first, .second{
+    height: 10vh;
+    width: 20vw;
+    border: 8px dashed #f8ac0d;
+    padding: 2%;
+    text-align: justify;
+    margin:0 auto;
+    margin-bottom: 2%;
+}
